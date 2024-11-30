@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+
+header {
+    background-color: #ff6347;
+    padding: 10px 20px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-list li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsFCjzNwcTqCfhgmkTPDGyHCQeRKhkVA7ySQ&s') no-repeat center center/cover;
+    text-align: center;
+    padding: 100px 20px;
+    color: white;
+}
+
+.hero .order-btn {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.3s all ease;
+}
+
+.hero .order-btn:hover {
+    background-color: #e55337;
+    border-radius: 10px;
+    
+}
+
+.menu {
+    padding: 20px;
+    text-align: center;
+}
+
+.menu h2 {
+    margin-bottom: 20px;
+}
+
+.pizza-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pizza-item {
+    margin: 15px;
+    text-align: center;
+    width: 200px;
+}
+
+.pizza-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.offers {
+    background-color: #fdf3e3;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.buy{
+    padding: 5px 15px;
+    background-color: #ff6347;
+    transition: 0.3s all ease;
+    border-radius: 10px;
+}
+.buy:hover {
+    transform: scale(1.2);
+}
